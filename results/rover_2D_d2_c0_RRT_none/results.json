@@ -1,0 +1,95 @@
+{
+  "instance_id": "rover_2D_d2_c0_RRT_none",
+  "domain": "rover",
+  "dim": "2D",
+  "d": 2,
+  "c": 0,
+  "mp": "RRT",
+  "tr": "none",
+  "timestamp": "2026-06-28 16:24:43",
+  "baseline": null,
+  "agents": [
+    {
+      "solved": true,
+      "rounds": 1,
+      "plan": [
+        "open(door0, door0_closed, door0_open)",
+        "navigate(rover0, start0, soil0_pose)",
+        "sample_soil(rover0, rover0store, soil0_pose)",
+        "communicate_soil_data(rover0, global_lander, soil0_pose, soil0_pose, lander0)",
+        "open(door1, door1_closed, door1_open)",
+        "navigate(rover1, start1, rock0_pose)",
+        "sample_rock(rover1, rover1store, rock0_pose)",
+        "communicate_rock_data(rover1, global_lander, rock0_pose, rock0_pose, lander0)"
+      ],
+      "total_cost_usd": 0.3037825,
+      "wall_time": 68.37214533399674,
+      "model": "opus",
+      "mode": "static",
+      "round_records": [
+        {
+          "round": 1,
+          "agent_ok": true,
+          "parsed": true,
+          "valid": true,
+          "plan": [
+            "open(door0, door0_closed, door0_open)",
+            "navigate(rover0, start0, soil0_pose)",
+            "sample_soil(rover0, rover0store, soil0_pose)",
+            "communicate_soil_data(rover0, global_lander, soil0_pose, soil0_pose, lander0)",
+            "open(door1, door1_closed, door1_open)",
+            "navigate(rover1, start1, rock0_pose)",
+            "sample_rock(rover1, rover1store, rock0_pose)",
+            "communicate_rock_data(rover1, global_lander, rock0_pose, rock0_pose, lander0)"
+          ],
+          "feedback": "",
+          "cost_usd": 0.3037825,
+          "num_turns": 5,
+          "error": null
+        }
+      ],
+      "error": null
+    },
+    {
+      "solved": true,
+      "rounds": 1,
+      "plan": [
+        "open(door0, door0_closed, door0_open)",
+        "navigate(rover0, start0, soil0_pose)",
+        "sample_soil(rover0, rover0store, soil0_pose)",
+        "communicate_soil_data(rover0, global_lander, soil0_pose, soil0_pose, lander0)",
+        "open(door1, door1_closed, door1_open)",
+        "navigate(rover1, start1, rock0_pose)",
+        "sample_rock(rover1, rover1store, rock0_pose)",
+        "communicate_rock_data(rover1, global_lander, rock0_pose, rock0_pose, lander0)"
+      ],
+      "total_cost_usd": 0.24846050000000003,
+      "wall_time": 67.8539862500038,
+      "model": "opus",
+      "mode": "tool",
+      "round_records": [
+        {
+          "round": 1,
+          "agent_ok": true,
+          "parsed": true,
+          "valid": true,
+          "plan": [
+            "open(door0, door0_closed, door0_open)",
+            "navigate(rover0, start0, soil0_pose)",
+            "sample_soil(rover0, rover0store, soil0_pose)",
+            "communicate_soil_data(rover0, global_lander, soil0_pose, soil0_pose, lander0)",
+            "open(door1, door1_closed, door1_open)",
+            "navigate(rover1, start1, rock0_pose)",
+            "sample_rock(rover1, rover1store, rock0_pose)",
+            "communicate_rock_data(rover1, global_lander, rock0_pose, rock0_pose, lander0)"
+          ],
+          "feedback": "",
+          "cost_usd": 0.24846050000000003,
+          "num_turns": 7,
+          "error": null
+        }
+      ],
+      "error": null
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "instance_id": "rover_2D_d2_c0_RRT_all",
+  "domain": "rover",
+  "dim": "2D",
+  "d": 2,
+  "c": 0,
+  "mp": "RRT",
+  "tr": "all",
+  "timestamp": "2026-06-28 16:27:39",
+  "baseline": {
+    "solved": true,
+    "status": "PlanGenerationResultStatus.SOLVED_SATISFICING",
+    "plan": [
+      "open(door0, door0_closed, door0_open)",
+      "navigate(rover0, start0, soil0_pose)",
+      "open(door1, door1_closed, door1_open)",
+      "navigate(rover1, start1, rock0_pose)",
+      "sample_soil(rover0, rover0store, soil0_pose)",
+      "sample_rock(rover1, rover1store, rock0_pose)",
+      "communicate_soil_data(rover0, global_lander, soil0_pose, soil0_pose, lander0)",
+      "communicate_rock_data(rover1, global_lander, rock0_pose, rock0_pose, lander0)"
+    ],
+    "plan_len": 8,
+    "wall_time": 12.961759291996714,
+    "error": null,
+    "timed_out": false
+  },
+  "agents": []
+}

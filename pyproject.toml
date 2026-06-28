@@ -1,0 +1,15 @@
+[project]
+name = "agentic-tamp"
+version = "0.0.1"
+description = "Solve individual TAMP instances with a Claude agent; compare head-to-head against TAMPEST."
+requires-python = ">=3.10"
+# Core deps (tampest, unified-planning, z3) are installed into .venv separately;
+# see README. This project bundles only the harness around them.
+dependencies = []
+
+[tool.setuptools.packages.find]
+include = ["agentic_tamp*"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"

@@ -1,0 +1,97 @@
+{
+  "instance_id": "doors_2D_d2_c0_RRT_none",
+  "domain": "doors",
+  "dim": "2D",
+  "d": 2,
+  "c": 0,
+  "mp": "RRT",
+  "tr": "none",
+  "timestamp": "2026-06-28 14:30:14",
+  "baseline": {
+    "solved": true,
+    "status": "PlanGenerationResultStatus.SOLVED_SATISFICING",
+    "plan": [
+      "move(r1, s, b0)",
+      "open(r1, d0, b0, c0, o0)",
+      "move(r1, b0, b1)",
+      "open(r1, d1, b1, c1, o1)",
+      "move(r1, b1, g)"
+    ],
+    "plan_len": 5,
+    "wall_time": 38.78590170797543,
+    "error": null,
+    "timed_out": false
+  },
+  "agents": [
+    {
+      "solved": true,
+      "rounds": 1,
+      "plan": [
+        "move(r1, s, b0)",
+        "open(r1, d0, b0, c0, o0)",
+        "move(r1, b0, b1)",
+        "open(r1, d1, b1, c1, o1)",
+        "move(r1, b1, g)"
+      ],
+      "total_cost_usd": 0.34306499999999995,
+      "wall_time": 103.35685683297925,
+      "model": "opus",
+      "mode": "static",
+      "round_records": [
+        {
+          "round": 1,
+          "agent_ok": true,
+          "parsed": true,
+          "valid": true,
+          "plan": [
+            "move(r1, s, b0)",
+            "open(r1, d0, b0, c0, o0)",
+            "move(r1, b0, b1)",
+            "open(r1, d1, b1, c1, o1)",
+            "move(r1, b1, g)"
+          ],
+          "feedback": "",
+          "cost_usd": 0.34306499999999995,
+          "num_turns": 5,
+          "error": null
+        }
+      ],
+      "error": null
+    },
+    {
+      "solved": true,
+      "rounds": 1,
+      "plan": [
+        "move(r1, s, b0)",
+        "open(r1, d0, b0, c0, o0)",
+        "move(r1, b0, b1)",
+        "open(r1, d1, b1, c1, o1)",
+        "move(r1, b1, g)"
+      ],
+      "total_cost_usd": 0.16913699999999998,
+      "wall_time": 49.43472424999345,
+      "model": "opus",
+      "mode": "tool",
+      "round_records": [
+        {
+          "round": 1,
+          "agent_ok": true,
+          "parsed": true,
+          "valid": true,
+          "plan": [
+            "move(r1, s, b0)",
+            "open(r1, d0, b0, c0, o0)",
+            "move(r1, b0, b1)",
+            "open(r1, d1, b1, c1, o1)",
+            "move(r1, b1, g)"
+          ],
+          "feedback": "",
+          "cost_usd": 0.16913699999999998,
+          "num_turns": 5,
+          "error": null
+        }
+      ],
+      "error": null
+    }
+  ]
+}
